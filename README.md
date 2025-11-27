@@ -4,9 +4,8 @@
 
 The **File-Archive Overlap Finder** is a powerful desktop tool designed to solve the critical problem of identifying and analyzing content reuse across large, unstructured document archives, using a single reference file as the benchmark. It operates on two fundamental principles:
 
-1.  **Efficiency Through Layered Analysis:** The tool avoids slow, byte-by-byte comparison by first applying a fast, macro-level filter (**Jaccard Similarity**) to narrow down potential matches. Only the most promising pairs are subjected to granular, CPU-intensive scrutiny.
-2.  **Structural Integrity Check:** The Advanced Structural Comparison feature moves beyond simple keyword spotting. It analyzes the **flow and structure** of content by segmenting documents into logical, page-aware text chunks (paragraphs). This method accurately identifies identical or near-identical blocks of text—the hallmarks of structural reuse—regardless of explicit section titles or minor formatting variations.
-
+1.  **Efficiency Through Layered Analysis:** The tool avoids slow, byte-by-byte comparison by first applying a fast, macro-level filter (**Jaccard Similarity**) to narrow down potential matches.
+2.  **Structural Integrity Check:** The Advanced Structural Comparison feature moves beyond simple keyword spotting. It analyzes the **flow and structure** of content by segmenting documents into logical, page-aware text chunks (paragraphs). This method accurately identifies identical or near-identical blocks of text and shows their similarity score.
 ---
 
 ## 🚀 Key Features
